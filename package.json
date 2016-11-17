@@ -1,0 +1,45 @@
+{
+  "name": "hash-props",
+  "version": "1.0.0",
+  "description": "Get a hash of an object calculated from certain properties",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joakimbeng/hash-props.git"
+  },
+  "keywords": [
+    "hash",
+    "props"
+  ],
+  "author": {
+    "name": "Joakim Carlstein",
+    "email": "joakim@beng.se",
+    "url": "http://joakim.beng.se"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joakimbeng/hash-props/issues"
+  },
+  "homepage": "https://github.com/joakimbeng/hash-props#readme",
+  "xo": {
+    "envs": [
+      "node"
+    ]
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "standard-version": "^3.0.0",
+    "xo": "^0.17.1"
+  },
+  "dependencies": {
+    "dot-prop": "^4.0.0",
+    "hasha": "^2.2.0"
+  }
+}
